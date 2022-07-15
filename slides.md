@@ -322,7 +322,7 @@ Nest公式は英語なので英語ができない人間にとってはつらい�
 
 ---
 layout: text-image
-media: '/images/graphql-starter.jpeg'
+media: 'https://user-images.githubusercontent.com/56404715/179198666-2b441e97-a7ff-46cd-b7aa-fbeb6a73052e.jpeg'
 ---
  
 # 6.1 GraphQL スターターパックをやる
