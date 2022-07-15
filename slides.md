@@ -9,7 +9,7 @@ layout: intro
 
 ---
 layout: presenter
-presenterImage: '/images/me.jpg'
+presenterImage: 'https://user-images.githubusercontent.com/56404715/179198206-455311de-d952-40bd-a652-1d603dfdfc7f.jpg'
 ---
 
 # hisho
