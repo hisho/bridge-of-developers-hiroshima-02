@@ -33,7 +33,57 @@ layout: intro
 # NestJSはご存知ですか？
 
 ---
-layout: new-section
+layout: intro
+---
+
+
+<div class="absolute inset-0 bg-black flex items-center justify-center">
+<img style="width: 70%" src="/images/nextjs-logo.png">
+</div>
+
+---
+layout: intro
+---
+<h1 class="relative z-20">🤔</h1>
+<div class="absolute inset-0 bg-black flex items-center justify-center" />
+
+---
+layout: intro
+---
+
+
+<div class="absolute inset-0 bg-black flex items-center justify-center">
+<img style="width: 70%" src="/images/nuxt-logo.svg">
+</div>
+
+---
+layout: intro
+---
+<h1 class="relative z-20">🤔</h1>
+<div class="absolute inset-0 bg-black flex items-center justify-center" />
+
+---
+layout: intro
+---
+<div class="absolute inset-0 bg-black flex items-center justify-center" >
+<img src="/images/nest-logo.png">
+</div>
+
+---
+layout: intro
+---
+<div class="absolute inset-0 bg-black flex items-center justify-center" >
+<img src="/images/nest-cat.png">
+</div>
+
+---
+layout: intro
+---
+
+# Nest🤗
+
+---
+layout: intro
 ---
 # NestJSとは
 
