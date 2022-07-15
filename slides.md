@@ -9,7 +9,7 @@ layout: intro
 
 ---
 layout: presenter
-presenterImage: './images/me.jpg'
+presenterImage: '/images/me.jpg'
 ---
 
 # hisho
@@ -53,7 +53,7 @@ layout: intro
 
 
 <div class="absolute inset-0 bg-black flex items-center justify-center">
-<img style="width: 70%" src="/images/nuxt-logo.svg">
+<img style="width: 70%" src="/images/nuxt-logo.png">
 </div>
 
 ---
