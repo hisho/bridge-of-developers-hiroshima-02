@@ -1,385 +1,463 @@
 ---
-# try also 'default' to start simple
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
-highlighter: shiki
-# show line numbers in code blocks
-lineNumbers: false
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+theme: penguin
 
-  Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
-drawings:
-  persist: false
-# use UnoCSS (experimental)
-css: unocss
+
+layout: intro
+---
+# 1週間でNestJS完全に理解した
+
+
+---
+layout: presenter
+presenterImage: './images/me.jpg'
 ---
 
-# Welcome to Slidev
+# hisho
 
-Presentation slides for developers
+フリーランス フロントエンドエンジニア   
+TypeScriptとReactが好き   
+最近パーマかけました
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
+```shell
+$ npx @hisho/card
+```
+
+- ニート
+- 職業訓練
+- i社で2年アルバイト
+- フリーランス
+
+---
+layout: intro
+---
+# NestJSはご存知ですか？
+
+---
+layout: intro
+---
+
+
+<div class="absolute inset-0 bg-black flex items-center justify-center">
+<img style="width: 70%" src="/images/nextjs-logo.png">
 </div>
 
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
+---
+layout: intro
+---
+<h1 class="relative z-20">🤔</h1>
+<div class="absolute inset-0 bg-black flex items-center justify-center" />
+
+---
+layout: intro
+---
+
+
+<div class="absolute inset-0 bg-black flex items-center justify-center">
+<img style="width: 70%" src="/images/nuxt-logo.svg">
 </div>
+
+---
+layout: intro
+---
+<h1 class="relative z-20">🤔</h1>
+<div class="absolute inset-0 bg-black flex items-center justify-center" />
+
+---
+layout: intro
+---
+<div class="absolute inset-0 bg-black flex items-center justify-center" >
+<img src="/images/nest-logo.png">
+</div>
+
+---
+layout: intro
+---
+<div class="absolute inset-0 bg-black flex items-center justify-center" >
+<img src="/images/nest-cat.png">
+</div>
+
+---
+layout: intro
+---
+
+# Nest🤗
+
+---
+layout: intro
+---
+# NestJSとは
+
+---
+layout: intro
+---
+# Node.js(TypeScript)で<br />バックエンドが書ける
+
+
+---
+layout: intro
+---
+# なぜやったのか
+
+---
+layout: new-section
+---
+
+# なぜやったのか
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>1 年間 React でフロントを書いたのでバックエンドも書きたい</li>
+  <li>当時ジョインしていたプロジェクトでバックエンドができていなかったので自分が作れば早くねって思った</li>
+  <li>なんとなく何をすればいいのか処理はわかるので自分で書けそうだと思った</li>
+  <li>フルスタックかっこよくない？</li>
+</ul>
+
+---
+layout: intro
+---
+# なにをやったか
+
+
+---
+layout: new-section
+---
+
+# 一週間でやった内容
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>NestJS で graphql のバックエンドを構築した</li>
+  <ul>
+    <li>Query 作成</li>
+    <li>Mutation 作成</li>
+    <li>JWT の Auth 作成</li>
+    <li>JWT の認証のガード実装</li>
+  </ul>
+</ul>
+
+---
+layout: intro
+---
+# Nestの話をしても・・・
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+NestJSの具体的な話をしても分からないので勉強した方法について語る
 -->
 
 ---
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+layout: intro
+---
+# 自分が勉強した<br />具体的な内容を話します！
 
 <!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
+自分がした具体的な勉強法について語る
 -->
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+---
+layout: new-section
+---
+# 大まかな計画を建てる
+
+<ol class="text-left text-3xl relative z-20 flex-1">
+  <li>前提知識から情報を整理する</li>
+  <li>技術選定</li>
+  <li>ゴールを明確にする</li>
+  <li>今回やらない範囲を決める</li>
+  <li>進め方を決める</li>
+  <li>手を動かす</li>
+  <li>自分で考える</li>
+</ol>
 
 ---
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
-
-### Keyboard Shortcuts
-
-|                                                    |                             |
-| -------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                | next animation or slide     |
-| <kbd>left</kbd> / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                      | previous slide              |
-| <kbd>down</kbd>                                    | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
+layout: new-section
 ---
 
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+# 1. 前提知識から情報を整理する
+
+<ol class="text-left text-3xl relative z-20 flex-1">
+  <li>今の自分が分かる、できること</li>
+  <li>今の自分が分からない、できないこと</li>
+</ol>
+
+<!--
+前提知識として自分が持っているものから今回やる範囲の必要な部分を洗い出す  
+とは言ってもやったことないと何もわからない状態になるので、やりながら必要な部分だけ勉強していく感じになる
+-->
+
 
 ---
-
-# Code
-
-Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
+layout: new-section
 ---
 
-# Components
+# 1.1 今の自分が分かる、できること
 
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>TypeScript がわかる</li>
+  <li>オブジェクト思考が分かる</li>
+  <li>graphql が分かる</li>
+  <li>query が何をするのか分かる</li>
+  <li>mutation が何をするのか分かる</li>
+  <li>バックエンドではNestJS を一瞬触ったことがある</li>
+</ul>
 
 ---
-
-## class: px-20
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
-
+layout: new-section
 ---
 
-## preload: false
+# 1.2 今の自分が分からない、できないこと
 
-# Animations
-
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
-
-```html
-<div v-motion :initial="{ x: -80 }" :enter="{ x: 0 }">Slidev</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>db が分からない</li>
+  <li>インフラが分からない</li>
+  <li>バックエンドのデプロイが分からない</li>
+  <li>docker が分からない</li>
+  <li>セキュリティが分からない</li>
+  <li>バックエンドの作り方が分からない</li>
+</ul>
 
 ---
-
-# LaTeX
-
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
-
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-
-$$
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
-
+layout: new-section
 ---
 
-# Diagrams
+# 2. 技術選定
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>自分ができる技術を選定をする</li>
+  <li>学ぶ範囲を広げすぎない</li>
+</ul>
 
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
-
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
+<!--
+フロントでは技術選定をしているので、その感じでバックエンドも技術選定をする  
+ポイントとしては何も分からない状態を勉強する場合は勉強する範囲が広すぎないほうが良い  
+今回で言えばバックエンドの技術に Go や Rust を選択したいが、Go や Rust を選択した場合は言語仕様から勉強する必要があるので、とても大変  
+そこで今回選択したのはバックエンドを TypeScript でかける NestJS である  
+前提知識として、Node のエコシステムや TypeScript が書けるので言語という壁がなくなり今回一番勉強したいバックエンドに集中して勉強ができる
+-->
 
 ---
-
-layout: center
-class: text-center
-
+layout: intro
 ---
 
-# Learn More
+# 選ばれたのはNestJSでした
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+
+---
+layout: new-section
+---
+
+# 3. ゴールを明確にする
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>1 週間後までに Query、Mutation ある程度自由に作成できるようになる(Must)</li>
+  <li>JWT の認証ができるようになる(Want)</li>
+</ul>
+
+<!--
+ゴールがないと方向性やモチベーションが定まらないので、必ずゴールを設定しよう
+MustとWantがあればなおよし
+-->
+
+---
+layout: new-section
+---
+
+# 4. 今回やらない範囲を決める
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>勉強していると芋づる式に勉強しないといけない</li>
+  <li>すべて勉強していると時間が無限に足りないので捨てる範囲を決める</li>
+</ul>
+
+
+<!--
+一つ前のセクションで NestJS を選択したが、バックエンドには DB を使うので仮想で DB を作るかローカルの DB を使うかの選択が必要になってくる  
+ローカルのでDBはよくわからないのでMySQLだけ動くdockerを用意する(ほぼコピペ)   
+その他のデプロイ、開発、本番用の環境構築やセキュリティなども考慮する必要があるが、今回はバックエンドの構築が主題になるのでここは勉強しない範囲に設定する
+-->
+
+---
+layout: new-section
+---
+
+# 今回やらないこと
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>docker</li>
+  <li>デプロイ</li>
+  <li>セキュリティ</li>
+</ul>
+
+
+---
+layout: new-section
+---
+
+# 5. 進め方を決める
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>自分の得意な勉強の方法でいい</li>
+  <li>いきなり公式を呼んでもいいけど概要を理解する必要がある</li>
+  <li>今回だとハンズオンをしてその後自分で作ってみる</li>
+</ul>
+
+
+<!--
+自分の勉強方法は辞書を呼んで単語を覚えてから必要な時に必要な単語を組み合わせて言葉を作る的な感じだが、基礎じゃない場合はそれだと覚えることが多すぎたり、バージョンによって書き方が違うので概要を理解するために一旦ハンズオンをやった後自分で考えたものを全部自分で調べながら実装するのが良さそう
+全く分からない状態だと大海に放り出されたみたいな感じになるけど、まずは泳ぎ方を学ぼう
+-->
+
+---
+layout: new-section
+---
+
+# 6. 手を動かす
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>まずは動くものを作る</li>
+  <li>経験上とりあえず動くものを作ったほうがいい</li>
+  <li>細かい部分は後から</li>
+</ul>
+
+<!--
+とりあえず何をやったらいいのかさっぱり分からないのでハンズオン系をやってみることにする。   
+Nest公式は英語なので英語ができない人間にとってはつらいし、情報量が多すぎて理解できないので日本語のハンズオン系を探すことにす
+-->
+
+---
+layout: text-image
+media: '/images/graphql-starter.jpeg'
+---
+ 
+# 6.1 GraphQL スターターパックをやる
+  Nestの事が書いてある部分(Chapter 04 ~ Chapter 08)あたりまでやった
+- [実際に試したリポジトリ](https://github.com/hisho/nestjs-nextjs-blog)
+- 🙆‍♂️NestJSで実際に動くものができた
+  正直これだけでは到底理解できないので、環境構築やその他を適当なリポジトリで作りつつREADMEを書くことにする
+- [構築手順を書いたREADME.md](https://github.com/hisho/nestjs-nextjs-blog/blob/main/backend/README.md)
+
+---
+layout: new-section
+---
+
+# 6.2 自分で開発環境を組んでみる
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>動くものはできたが手順通りなので、自分で開発環境を作ってみる</li>
+  <li>READMEを書きながらだと見返せるのでおすすめ</li>
+  <li><a href="https://github.com/hisho/nestjs-nextjs-blog/blob/main/backend/README.md">構築手順を書いたREADME</a></li>
+</ul>
+
+<!--
+READMEはまじで大事。
+未来への自分や属人化を防ぐので実務ではなるべく書きたいね
+gitには無いけどREADMEを書きながらもう一つ新しいNestのプロジェクトを作った
+-->
+
+---
+layout: new-section
+---
+
+# 7. 自分で考える
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>自分で考えてアプリを作ってみる</li>
+  <li>簡単なものからやっていこう</li>
+</ul>
+
+<!--
+ハンズオン系では指示に従っているだけでアプリができるので概要がつかめたら、自分で考えてアプリを作ってみることにする   
+とりあえずTODOアプリ辺りが初心者にとって良さそうなので、TODOアプリを作ってみることにする
+-->
+
+---
+layout: new-section
+---
+
+# 7.1 TODOアプリを作る
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>前回のアプリから動く形を作成</li>
+  <li>基本的なCRUDを実装(new)</li>
+  <li>dto(バリデーション)の実装(new)</li>
+  <li>prismaからentityの自動生成(new)</li>
+  <li>e2eテスト(new)</li>
+  <li><a href="https://github.com/hisho/nest-todo-api">実際に試したリポジトリ</a></li>
+</ul>
+
+<!--
+TODOアプリは簡単ですが、自分で考えてすべて作らないといけないのでその辺がいい！！！   
+基本的な環境構築は前回のREADME.mdを見ながら作成する   
+普通にやっても面白くないので前回でやらなかった新しいことに挑戦する
+-->
+
+---
+layout: intro
+---
+
+# 次は・・・
+
+<!--
+基本的なCRUDを含め<br />NestJSに対する解像度が上がってきたので<br />次は認証機能を実装してみる
+-->
+
+---
+layout: new-section
+---
+
+# 7.2 認証機能の作成
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>前回のアプリから動く形を作成</li>
+  <li>JWTによる認証を実装(new)</li>
+  <li>Auth Gradを実装(new)</li>
+  <li><a href="https://github.com/hisho/nest-auth-playground">実際に試したリポジトリ</a></li>
+</ul>
+
+<!--
+実際に動く認証機能を実装してみる   
+認証機能は結構重たいので、前回のように認証以外に新しいことには挑戦しないようにする(環境構築はマニュアル)
+
+これで一旦認証から基本的なCRUDまで自分で実装できるようになった   
+まだまだ実装したことはあるが、これ以上は覚えきれないのでまた別の機会に挑戦する
+-->
+
+---
+layout: intro
+---
+
+# まとめ
+
+
+---
+layout: new-section
+---
+
+
+<ul class="text-left text-3xl relative z-20 flex-1">
+  <li>手順を立てて勉強しよう</li>
+  <li>考えても分からないのでとりあえず動くまで手を動かしてみよう</li>
+  <li>README.mdなどで自分がやったことを文書化するのは大事</li>
+  <li>わからないことを勉強する時は何もわからいのでgithubで検索するとコードベースで会話ができるのでいいかも</li>
+</ul>
+
+---
+layout: intro
+---
+
+# 結局
+
+
+---
+layout: intro
+---
+
+# 楽しもう
+
+---
+layout: intro
+---
+
+# おすすめの検索法
+
+---
+layout: intro
+---
+
+# GitHubで使っているパッケージを最新順にして検索する
